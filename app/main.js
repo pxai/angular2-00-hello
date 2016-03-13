@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 System.register(['angular2/platform/browser', './app.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
@@ -15,4 +16,6 @@ System.register(['angular2/platform/browser', './app.component'], function(expor
         }
     }
 });
+=======
+>>>>>>> 52649754594c4f35574416851679d8f2e51783c7
 //# sourceMappingURL=main.js.map
