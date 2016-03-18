@@ -11,33 +11,27 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var AppComponent;
+    var ButtonComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            // Different kinds of interpolation
-            // Notice textContent is a dom element
-            AppComponent = (function () {
-                function AppComponent() {
-                    this.title = 'Angular2 00 Hello App';
-                    this.subtitle = 'Angular2 is... so different';
-                    this.logo = 'https://avatars0.githubusercontent.com/u/139426?v=3&s=400';
-                    this.angularSite = 'https://angularjs.org/';
+            ButtonComponent = (function () {
+                function ButtonComponent() {
                 }
-                AppComponent = __decorate([
+                ButtonComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
-                        template: "<h1>{{title}}</h1>\n                <h2 [textContent]='subtitle'></h2>\n                <img bind-src=\"logo\">\n                <a bind-href=\"angularSite\">Angular site</a>\n            "
+                        selector: 'my-button',
+                        template: '<button>This is a button</button>'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], ButtonComponent);
+                return ButtonComponent;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("ButtonComponent", ButtonComponent);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=app.button.js.map
