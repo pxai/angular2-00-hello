@@ -1,6 +1,7 @@
-# Angular2 00
+# Angular2 04
 ## What's this
 Simple example of Angular2 app set up for a console-based environment
+In this case to show the simplest case possible
 
 ## Install
 Clone the repository
