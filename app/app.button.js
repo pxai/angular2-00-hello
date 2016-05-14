@@ -11,10 +11,27 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var AppComponent;
+    var ButtonComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
+            ButtonComponent = (function () {
+                function ButtonComponent() {
+                }
+                ButtonComponent = __decorate([
+                    core_1.Component({
+                        selector: 'my-button',
+                        template: '<button>This is a button</button>'
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], ButtonComponent);
+                return ButtonComponent;
+            }());
+            exports_1("ButtonComponent", ButtonComponent);
+        }
+    }
+});
+//# sourceMappingURL=app.button.js.map
